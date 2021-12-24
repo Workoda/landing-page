@@ -16,24 +16,23 @@ const Banner = () => {
         <Grid sx={styles.grid}>
           <Box sx={styles.content}>
             <Heading as="h3">
-              Great software is built with amazing developers
+              Donnez vie à votre projet web !
             </Heading>
             <Text as="p">
-              We help build and manage a team of world-class developers to bring
-              your vision to life
+              Site vitrine ou application web ambitieuse, nos équipes sont prêtes à vous accompagner.
             </Text>
             <Box as="form" sx={styles.form}>
               <Box as="label" htmlFor="subscribe" variant="styles.srOnly">
-                subscribe
+                Prendre
               </Box>
               <Input
                 name="subscribe"
                 id="subscribe"
-                placeholder="Subscribe newsletter"
+                placeholder="Votre numéro de téléphone"
                 sx={styles.form.input}
               />
               <Button type="submit" sx={styles.form.button}>
-                Subscribe
+                Appelez moi
               </Button>
             </Box>
             <Box sx={styles.partner}>
