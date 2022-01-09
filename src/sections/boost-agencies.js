@@ -16,29 +16,28 @@ const BoostAgencies = () => {
             <Box sx={styles.content}>
               <Box sx={styles.titleBox}>
                 <Heading as="h3">
-                  Boost your agencies by choosing Ninja Developers
+                  Boostez votre projet grâce à workoda.
                 </Heading>
                 <Text as="p">
-                  Create custom landing pages with Shades that convert more
-                  visitors than any website, no coding required.
+                  Notre unique objectif est de construire l'application parfaite pour votre projet et vos futurs clients.
                 </Text>
               </Box>
               <Box as="ul" sx={styles.list}>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  Unlimited design possibility
+                  Un design rafiné et intuitif.
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  Completely responsive features
+                  Un site adapté pour le référencement.
                 </Text>
                 <Text as="li">
                   <IoIosCheckmarkCircle />
-                  Easy to customize plugins
+                  Une infrastructure scalable.
                 </Text>
               </Box>
               <Link path="/" sx={styles.link}>
-                Learn more <FaAngleRight />
+                En savoir plus <FaAngleRight />
               </Link>
             </Box>
           </Flex>

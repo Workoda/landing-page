@@ -9,10 +9,10 @@ export default [
   },
   {
     path: 'testimonials',
-    label: 'Testimonials',
+    label: 'Témoignages',
   },
   {
     path: 'news',
-    label: 'News',
+    label: 'Nous contacter',
   },
 ];

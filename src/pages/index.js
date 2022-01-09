@@ -13,20 +13,22 @@ import Feature from 'sections/feature';
 import VideoOne from 'sections/video-one';
 import CallToAction from 'sections/call-to-action';
 import BoostAgencies from 'sections/boost-agencies';
+import { PopupWidget } from "react-calendly";
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
+          <PopupWidget url="https://calendly.com/mathieu-houlle/meet" text={"Prendre rendez-vous"}/>  
           <SEO title="Workoda" />
           <Banner />
           <Services />
           <BoostAgencies />
-          <VideoOne />
+          {/* <VideoOne /> */}
           <Testimonials />
           <CustomerSupport />
-          <Feature />
+          {/* <Feature /> */}
           <CallToAction />
         </Layout>
       </StickyProvider>

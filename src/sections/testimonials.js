@@ -14,41 +14,19 @@ SwiperCore.use([Thumbs, Autoplay]);
 const TESTIMONIALS_DATA = [
   {
     image: img1,
-    heading: 'Pierre Hackett',
-    designation: 'VP of Engineering',
+    heading: 'Antoine Meunier',
+    designation: 'Fondateur de Streetly',
     content:
-      'They are doing amazing job with hundred percent customer satisfaction, Love their work and would like to work with them again',
+      'Mathieu est une personne méticuleuse et organisée, travailler avec lui durant 6 mois au sein de streetly fut un réel plaisir.',
   },
   {
     image: img2,
-    heading: 'Natalia Sanz',
-    designation: 'Head of Technology',
+    heading: 'Robert Barre',
+    designation: 'CTO direct-market.fr',
     content:
-      'Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster.',
-  },
-  {
-    image: img3,
-    heading: 'Ece Akman',
-    designation: 'Senior Marketer',
-    content:
-      'Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal.',
-  },
-  {
-    image: img2,
-    heading: 'Natalia Sanz',
-    designation: 'Head of Technology',
-    content:
-      'Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional.',
-  },
-  {
-    image: img3,
-    heading: 'Ece Akman',
-    designation: 'Senior Marketer',
-    content:
-      'Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base.',
-  },
+      'Professionnel, responsable et organisé, je vous recommande de travailler avec Mathieu !',
+  }
 ];
-
 const Testimonials = () => {
   // store thumbs swiper instance
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -86,8 +64,8 @@ const Testimonials = () => {
     <Box as="section" id="testimonials" sx={styles.testimonials}>
       <Container>
         <BlockTitle
-          slogan="Customer Comments"
-          title="Why customers love us"
+          slogan="Les avis"
+          title="On adore vraiment nos clients"
           styles={styles.blockTitle}
         />
         <Swiper

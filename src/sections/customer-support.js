@@ -14,20 +14,19 @@ const CustomerSupport = () => {
           <Box sx={styles.col}>
             <Box sx={styles.content}>
               <Heading as="h3">
-                Free Customer Support to ensure what you like to expect
+                Suivez l'évolution de votre projet en temps réel
               </Heading>
               <Text as="p">
-                We offer a risk-free trial period of up to two weeks. You will
-                only have to pay if you are happy with the developer and wish to
-                continue. If you are unsatisfied, we’ll refund payment or fix
-                issues on our dime period customers.
+                Nous savons très bien que vous voulez voir votre projet se construire.
+                C'est pour cette raison que nous proposons à nos clients de suivre l'évolution
+                du projet minute par minute grâce au partage de nos outils de gestion de projets.
               </Text>
               <Text as="p" sx={styles.specialText}>
-                If you are happy with the developer and wish to continue. If you
-                are unsatisfied, we’ll refund payment or fix issues.
+                Si vous êtes intéressé par cette transparence, vous pouvez lire notre article qui détails
+                l'organisation de nos équipes de développeurs.
               </Text>
               <Link path="/" sx={styles.link}>
-                Learn more <FaAngleRight />
+                Lire l'article <FaAngleRight />
               </Link>
             </Box>
           </Box>

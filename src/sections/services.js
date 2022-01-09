@@ -11,27 +11,27 @@ import icon4 from 'assets/icons/service-1-4.svg';
 const SERVICES_DATA = [
   {
     icon: icon1,
-    title: 'Unlimited Customization',
+    title: 'Une UX parfaite',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'On adore les interfaces belles et intuitives, et c\est aussi le cas de vos clients.',
   },
   {
     icon: icon2,
-    title: 'Vector shape & resizable',
+    title: 'Des applications complètes',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Votre projet est créé de A à Z, nous pouvons donc implémenter toute sorte de fonctionnalité.',
   },
   {
     icon: icon3,
-    title: 'Editing freedom',
+    title: 'Un suivi en temps réel',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Suivez l\'évolution de votre projet en temps réel grâce à nos outils de tacking.',
   },
   {
     icon: icon4,
-    title: 'Best Award history',
+    title: 'Un project scalable',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Votre application est directement conçu pour gérer un nombre variable d\'utilisateurs.',
   },
 ];
 
@@ -40,8 +40,8 @@ const Services = () => {
     <Box sx={styles.services} id="services">
       <Container>
         <BlockTitle
-          slogan="Quality features"
-          title="Meet exciting feature of app"
+          slogan="Services"
+          title="Ce que nous pouvons vous proposer."
           styles={styles.blockTitle}
         />
         <Grid sx={styles.grid}>

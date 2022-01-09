@@ -6051,6 +6051,11 @@ rc-util@^5.7.0:
     react-is "^16.12.0"
     shallowequal "^1.1.0"
 
+react-calendly@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/react-calendly/-/react-calendly-2.2.2.tgz#5c5b00dc38fdfd1f963b18c11b3e92430772b17a"
+  integrity sha512-sDXoLLd7aWm+MBnzLZ6xmRb17pSTVlID3G3kjqtqJByGIoWylfx2nXe9IkN644ZDFcLmCVlLvSdL/GmX1owTGw==
+
 react-custom-scrollbars@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/react-custom-scrollbars/-/react-custom-scrollbars-4.2.1.tgz#830fd9502927e97e8a78c2086813899b2a8b66db"
