@@ -13,7 +13,7 @@ const SERVICES_DATA = [
     icon: icon1,
     title: 'Une UX parfaite',
     text:
-      'On adore les interfaces belles et intuitives, et c\est aussi le cas de vos clients.',
+      'On adore les interfaces belles et intuitives, et c\'est aussi le cas de vos clients.',
   },
   {
     icon: icon2,
