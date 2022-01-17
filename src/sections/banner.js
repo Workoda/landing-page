@@ -31,12 +31,12 @@ const Banner = () => {
                 placeholder="Votre numéro de téléphone"
                 sx={styles.form.input}
               />
-              <Button type="submit" sx={styles.form.button}>
-                Appelez moi
+              <Button type="submit" sx={styles.form.button} onClick={()=> window.open("https://calendly.com/mathieu-houlle/meet", "_blank")}>
+                Demander un devis
               </Button>
             </Box>
             <Box sx={styles.partner}>
-              <Text as="span">Sponsored by:</Text>
+              <Text as="span">Powered by:</Text>
               <Box as="div">
                 <Image src={img1} alt="" />
               </Box>

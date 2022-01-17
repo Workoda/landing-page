@@ -35,9 +35,10 @@ export default function Header({ className }) {
           </Flex>
 
           <Link
-            path="/"
+            path="https://calendly.com/mathieu-houlle/meet"
+            onClick={()=> window.open("https://calendly.com/mathieu-houlle/meet", "_blank")}
             ml={2}
-            label="Commencer votre projet"
+            label="Demander un devis"
             sx={styles.headerBtn}
             variant="buttons.primary"
           />

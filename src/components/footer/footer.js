@@ -21,7 +21,7 @@ export default function Footer() {
       >
         <Box sx={styles.left}>
           <Logo />
-          <Text as="p">
+          <Text as="p" style={{marginLeft: 100}}>
             &copy; {new Date().getFullYear()} Workoda
           </Text>
         </Box>
