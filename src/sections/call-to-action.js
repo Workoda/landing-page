@@ -9,7 +9,7 @@ const CallToAction = () => {
         <Box sx={styles.inner}>
           <Heading as="h3">
             Vous avez un projet en tête ? <br />
-            Il est temps de vous lancer !
+            Parlons-en !
           </Heading>
           <Box sx={styles.btnWrapper}>
             <Button sx={styles.btn} onClick={()=> window.open("https://calendly.com/mathieu-houlle/meet", "_blank")}>DEMANDER UN DEVIS</Button>

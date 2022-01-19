@@ -17,12 +17,12 @@ const CustomerSupport = () => {
                 Suivez l'évolution de votre projet en temps réel
               </Heading>
               <Text as="p">
-                Nous savons très bien que vous voulez voir votre projet se construire.
+                Nous savons très bien que vous voudriez voir votre projet se construire.
                 C'est pour cette raison que nous proposons à nos clients de suivre l'évolution
                 du projet minute par minute grâce au partage de nos outils de gestion de projets.
               </Text>
               <Text as="p" sx={styles.specialText}>
-                Si vous êtes intéressé par cette transparence, vous pouvez lire notre article qui détails
+                Si vous êtes intéressé par cette transparence, vous pouvez lire notre article qui détail
                 l'organisation de nos équipes de développeurs.
               </Text>
               <Link path="/" sx={styles.link}>

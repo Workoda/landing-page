@@ -13,11 +13,11 @@ const SERVICES_DATA = [
     icon: icon1,
     title: 'Une UX parfaite',
     text:
-      'On adore les interfaces belles et intuitives, et c\'est aussi le cas de vos clients.',
+      'On adore les interfaces belles et intuitives, c\'est aussi le cas de vos clients.',
   },
   {
     icon: icon2,
-    title: 'Des applications complètes',
+    title: 'Des applications complexes',
     text:
       'Votre projet est créé de A à Z, nous pouvons donc implémenter toute sorte de fonctionnalité.',
   },
@@ -25,13 +25,13 @@ const SERVICES_DATA = [
     icon: icon3,
     title: 'Un suivi en temps réel',
     text:
-      'Suivez l\'évolution de votre projet en temps réel grâce à nos outils de tacking.',
+      'Suivez l\'évolution de votre projet en temps réel grâce à nos outils de tracking.',
   },
   {
     icon: icon4,
     title: 'Un project scalable',
     text:
-      'Votre application est directement conçu pour gérer un nombre variable d\'utilisateurs.',
+      'Votre application est directement conçue pour gérer un nombre variable d\'utilisateurs.',
   },
 ];
 
