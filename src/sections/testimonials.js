@@ -64,7 +64,7 @@ const Testimonials = () => {
     <Box as="section" id="testimonials" sx={styles.testimonials}>
       <Container>
         <BlockTitle
-          slogan="Les avis"
+          slogan="Témoignages"
           title="On adore vraiment nos clients"
           styles={styles.blockTitle}
         />

@@ -12,7 +12,7 @@ const CallToAction = () => {
             Parlons-en !
           </Heading>
           <Box sx={styles.btnWrapper}>
-            <Button sx={styles.btn} onClick={()=> window.open("https://calendly.com/mathieu-houlle/meet", "_blank")}>DEMANDER UN DEVIS</Button>
+            <Button sx={styles.btn} onClick={()=> window.open("https://tidycal.com/mathieu-houlle/un-projet-web", "_blank")}>DEMANDER UN DEVIS</Button>
           </Box>
         </Box>
       </Container>

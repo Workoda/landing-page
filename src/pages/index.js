@@ -20,7 +20,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <StickyProvider>
         <Layout>
-          <PopupWidget url="https://calendly.com/mathieu-houlle/meet" text={"Prendre rendez-vous"}/>  
+          <PopupWidget url="https://tidycal.com/mathieu-houlle/un-projet-web" text={"Prendre rendez-vous"}/>  
           <SEO title="Workoda" />
           <Banner />
           <Services />
