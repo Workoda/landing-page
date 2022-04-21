@@ -14,23 +14,25 @@ import VideoOne from 'sections/video-one';
 import CallToAction from 'sections/call-to-action';
 import BoostAgencies from 'sections/boost-agencies';
 import { PopupWidget } from "react-calendly";
+import { FaAlignCenter } from 'react-icons/fa';
 
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <StickyProvider>
-        <Layout>
-          <PopupWidget url="https://tidycal.com/mathieu-houlle/un-projet-web" text={"Prendre rendez-vous"}/>  
+        {/* <Layout> */}
+          {/* <PopupWidget url="https://tidycal.com/mathieu-houlle/un-projet-web" text={"Prendre rendez-vous"}/>   */}
           <SEO title="Workoda" />
-          <Banner />
+          {/* <Banner />
           <Services />
           <BoostAgencies />
-          {/* <VideoOne /> */}
+          <VideoOne />
           <Testimonials />
           <CustomerSupport />
-          {/* <Feature /> */}
-          <CallToAction />
-        </Layout>
+          <Feature />
+          <CallToAction /> */}
+		  <h1 style={{position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}><span style={{color: 'red'}}>W</span>ork in progress...</h1>
+        {/* </Layout> */}
       </StickyProvider>
     </ThemeProvider>
   );
